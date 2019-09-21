@@ -1,11 +1,5 @@
 "use strict";
 
-/*
-* What pure functions, side-effects, and referential transparency mean
-* Thinking of functions in terms of their inputs and outputs
-* How to identify and encapsulate impurities inside functions
-* */
-
 const things = [
     { name: 'thing1', id: 1},
     { name: 'thing2', id: 2},
@@ -31,8 +25,8 @@ pureFunction(things[0]);
 const people = ['Robert', 'Aime', 'Catelyn', 'Tom'];
 
 function addPersonImpure(list, name) {
-  //  return people.push(name); // push mutate the array means the length or people will be 5
-  // return list.concat(name);
+  //  return people.push(name); // .push mutate the array
+  // return list.concat(name); // .concat creates a copy
    //  or
      // return [].concat(list, name);
     //  return [].concat(...list, [1, 2, 3], 3444, name);
