@@ -1,5 +1,5 @@
 {
-  "name": "Functional Programing",
+  "name": "functional-programming",
   "version": "1.0.0",
   "description": "A light foundation for your next frontend project based on webpack.",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/wbkd/webpack-starter.git"
   },
   "keywords": [
     "webpack",
